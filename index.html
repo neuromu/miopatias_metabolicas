@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guia clínico completo sobre miopatias metabólicas - McArdle, CPT2 e Mitocondrial">
+    <meta name="keywords" content="miopatia metabólica, McArdle, CPT2, mitocondrial, neurologia">
+    <meta name="author" content="Seu Nome">
+    
+    <title>Miopatias Metabólicas | Guia Clínico</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🧬</text></svg>">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="logo">🧬</span>
+                <h1>Miopatias Metabólicas</h1>
+            </div>
+            <div class="nav-toggle" id="navToggle">☰</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#mcardle">McArdle</a></li>
+                <li><a href="#cpt2">CPT2</a></li>
+                <li><a href="#mitocondrial">Mitocondrial</a></li>
+                <li><a href="#comparacao">Comparação</a></li>
+                <li><a href="#diagnostico">Diagnóstico</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>🧠 Guia Clínico Prático</h1>
+            <p>Miopatias Metabólicas: Diagnóstico e Tratamento</p>
+            <div class="header-stats">
+                <span class="stat">
+                    <strong>3</strong>
+                    <small>Diagnósticos</small>
+                </span>
+                <span class="stat">
+                    <strong>5+</strong>
+                    <small>Tabelas</small>
+                </span>
+                <span class="stat">
+                    <strong>100%</strong>
+                    <small>Responsivo</small>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            
+            <!-- Introdução -->
+            <section id="introducao" class="section">
+                <h2>📌 Introdução Rápida</h2>
+                
+                <div class="definition-box">
+                    <h3>O que é?</h3>
+                    <p><strong>Miopatias metabólicas</strong> = déficits genéticos no metabolismo energético muscular</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h3>Apresentação Típica</h3>
+                    <ul class="checklist">
+                        <li>✓ Crises de fraqueza, dor e/ou rabdomiólise</li>
+                        <li>✓ CK >10x normal durante/após exercício</li>
+                        <li>✓ Exame neurológico geralmente normal entre eventos</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Overview dos 3 Grupos -->
+            <section class="section">
+                <h2>🎯 Os 3 Grupos Principais</h2>
+                
+                <div class="cards-grid">
+                    <div class="card red">
+                        <div class="card-header">
+                            <span class="emoji">🔴</span>
+                            <h3>McArdle (GSD5)</h3>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Gene:</strong> PYGM</p>
+                            <p><strong>Sintoma:</strong> Câimbras</p>
+                            <p><strong>Trigger:</strong> Exercício breve intenso</p>
+                            <p><strong>CK:</strong> Cronicamente ↑</p>
+                        </div>
+                        <a href="#mcardle" class="btn btn-red">Saiba Mais</a>
+                    </div>
+
+                    <div class="card orange">
+                        <div class="card-header">
+                            <span class="emoji">🟠</span>
+                            <h3>CPT2</h3>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Gene:</strong> CPT2</p>
+                            <p><strong>Sintoma:</strong> Mialgia</p>
+                            <p><strong>Trigger:</strong> Exercício prolongado + jejum</p>
+                            <p><strong>CK:</strong> Normal entre eventos</p>
+                        </div>
+                        <a href="#cpt2" class="btn btn-orange">Saiba Mais</a>
+                    </div>
+
+                    <div class="card yellow">
+                        <div class="card-header">
+                            <span class="emoji">🟡</span>
+                            <h3>Mitocondrial</h3>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Gene:</strong> mtDNA/Nuclear</p>
+                            <p><strong>Sintoma:</strong> Fadiga + multissistêmico</p>
+                            <p><strong>Trigger:</strong> Endurance + stressor</p>
+                            <p><strong>CK:</strong> Normal/leve ↑</p>
+                        </div>
+                        <a href="#mitocondrial" class="btn btn-yellow">Saiba Mais</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- McArdle -->
+            <section id="mcardle" class="section section-alt">
+                <h2>🔴 DOENÇA DE ARMAZENAMENTO DE GLICOGÊNIO (McArdle)</h2>
+                
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Fisiologia Básica</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="pathophysiology">
+                                <p><strong>Problema:</strong> Ausência de miofosforilase → não consegue quebrar glicogênio muscular</p>
+                                <div class="flow-diagram">
+                                    <div class="flow-step">Exercício breve intenso</div>
+                                    <div class="flow-arrow">↓</div>
+                                    <div class="flow-step">Músculos usam glicogênio para ATP rápido</div>
+                                    <div class="flow-arrow">↓</div>
+                                    <div class="flow-step">McArdle: glicogênio fica preso</div>
+                                    <div class="flow-arrow">↓</div>
+                                    <div class="flow-step error">ATP depleção → câimbras</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Apresentação Clínica</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <table class="clinic-table">
+                                <tr>
+                                    <td><strong>Idade de início</strong></td>
+                                    <td>Infância (diagnóstico frequentemente atrasado)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Tipo de sintoma</strong></td>
+                                    <td>Câimbras (cólica muscular)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Quando ocorre</strong></td>
+                                    <td>Segundos a minutos do exercício breve</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Pigmentúria</strong></td>
+                                    <td>Urina escura tipo "coca-cola" - imediata</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>CK elevado</strong></td>
+                                    <td class="highlight">SEMPRE (baseline >1000 U/L)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Exame neuro</strong></td>
+                                    <td>Normal entre eventos</td>
+                                </tr>
+                            </table>
+
+                            <div class="info-box info">
+                                <strong>💡 Pista diagnóstica:</strong> "Pior atleta da classe" mas consegue andar o dia inteiro em intensidade baixa
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Fenômeno do Segundo Fôlego</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="feature-box">
+                                <h4>Mecanismo Exclusivo do McArdle</h4>
+                                <div class="mechanism">
+                                    <div class="step">
+                                        <span class="time">0-5 min</span>
+                                        <span class="desc">Câimbras intensas, fadiga</span>
+                                    </div>
+                                    <div class="step">
+                                        <span class="time">5-15 min</span>
+                                        <span class="desc">Repousa 10 minutos</span>
+                                    </div>
+                                    <div class="step success">
+                                        <span class="time">15+ min</span>
+                                        <span class="desc">Consegue continuar em intensidade LEVE indefinidamente</span>
+                                    </div>
+                                </div>
+                                <p class="small-text">Racional: circulação ↑ → glucose do sangue entra (bypass do problema)</p>
+                                <div class="highlight-box yellow-light">
+                                    ⭐ <strong>Achado patognomônico para McArdle!</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Diagnóstico</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <h4>Teste de Exercício de Antebraço (Não-Isquêmico)</h4>
+                            <div class="diagnostic-box">
+                                <p><strong>Técnica:</strong></p>
+                                <ul>
+                                    <li>Cateter em veia antecubital</li>
+                                    <li>1 minuto preensão máxima dinâmica (9s "on", 1s "off")</li>
+                                    <li>Coleta PRÉ e PÓS em tubo com gelo</li>
+                                    <li>Mede: <strong>lactato</strong> e <strong>amônia</strong></li>
+                                </ul>
+
+                                <table class="comparison-table">
+                                    <tr>
+                                        <th>Teste</th>
+                                        <th>Normal</th>
+                                        <th>McArdle</th>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Lactato</strong></td>
+                                        <td>↑3-5x baseline</td>
+                                        <td class="error">↑ Minimamente (BLUNTED)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Amônia</strong></td>
+                                        <td>↑3-5x baseline</td>
+                                        <td class="error">↑↑ MUITO ELEVADA</td>
+                                    </tr>
+                                </table>
+                                <p class="small-text">Achado patognomônico: lactato ausente + amônia exagerada</p>
+                            </div>
+
+                            <h4 style="margin-top: 20px;">Confirmação Genética</h4>
+                            <div class="diagnostic-box">
+                                <p>Sequenciamento do gene <strong>PYGM</strong></p>
+                                <p>Mutação homozigota comum: <code>p.Arg50*</code></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Tratamento</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <table class="treatment-table">
+                                <tr class="header-row">
+                                    <th>Intervenção</th>
+                                    <th>Mecanismo</th>
+                                    <th>Eficácia</th>
+                                </tr>
+                                <tr class="highlight-row">
+                                    <td><strong>Sucrose pré-exercício</strong><br>(37g, 5-10min antes)</td>
+                                    <td>Bypass do defeito - glucose do sangue</td>
+                                    <td class="success">✓ Melhora significativa</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Exercício progressivo regular</strong></td>
+                                    <td>Adaptação metabólica paradoxal</td>
+                                    <td class="success">✓ Reduz sintomas</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Evitar exercício com doença</strong></td>
+                                    <td>Reduz estresse metabólico</td>
+                                    <td class="success">✓ Preventivo</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Creatina baixa dose</strong><br>(0.1 g/kg/dia)</td>
+                                    <td>Energia alternativa</td>
+                                    <td class="neutral">~ Modesto</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Vitamina B6</strong><br>(50 mg/dia)</td>
+                                    <td>Cofator (se mutação null)</td>
+                                    <td class="neutral">~ Teórico/baixo risco</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Dieta rica em proteína</strong><br>(~15% calorias)</td>
+                                    <td>Aminoácidos como combustível</td>
+                                    <td class="neutral">~ Modesto</td>
+                                </tr>
+                            </table>
+
+                            <div class="warning-box">
+                                <strong>⚠️ Evitar:</strong>
+                                <ul>
+                                    <li>❌ Creatina alta dose (>0.3 g/kg/dia) → piora</li>
+                                    <li>❌ Ribose, verapamil, dantroleno → sem eficácia</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CPT2 -->
+            <section id="cpt2" class="section">
+                <h2>🟠 DEFEITO DE OXIDAÇÃO DE ÁCIDOS GRAXOS (CPT2)</h2>
+                
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Fisiologia Básica</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p><strong>Problema:</strong> CPT2 não transporta ácidos graxos para dentro da mitocôndria</p>
+                            <div class="flow-diagram">
+                                <div class="flow-step">Exercício prolongado (endurance)</div>
+                                <div class="flow-arrow">↓</div>
+                                <div class="flow-step">Músculo prefere queimar gordura</div>
+                                <div class="flow-arrow">↓</div>
+                                <div class="flow-step error">CPT2 deficiente: gordura fica fora da mitocôndria</div>
+                                <div class="flow-arrow">↓</div>
+                                <div class="flow-step error">Não consegue fazer ATP → rabdomiólise 12-24h depois</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Apresentação Clínica</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <table class="clinic-table">
+                                <tr>
+                                    <td><strong>Tipo de sintoma</strong></td>
+                                    <td>Mialgia (dor muscular) - NÃO câimbras</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Timing</strong></td>
+                                    <td>Mesmo dia ou 12-24h APÓS exercício</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Trigger</strong></td>
+                                    <td>Exercício prolongado (>30min) + jejum ou doença</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Pigmentúria</strong></td>
+                                    <td>Tardia (24h depois)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>CK basal</strong></td>
+                                    <td class="success">NORMAL (entre eventos)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Laboratório</strong></td>
+                                    <td>Durante event: hipokalemia, hipoglicemia hipocetótica</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Exame neuro</strong></td>
+                                    <td>Normal</td>
+                                </tr>
+                            </table>
+
+                            <div class="info-box info">
+                                <strong>💡 Pista diagnóstica:</strong> Paciente relata "acordava bem, fez mochila pesada, noite piora"
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Diagnóstico</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <h4>Acilcarnitina Sérica (TESTE-CHAVE) 🔑</h4>
+                            <div class="diagnostic-box">
+                                <p><strong>Quando fazer:</strong></p>
+                                <ul>
+                                    <li>✓ Jejum overnight (ideal)</li>
+                                    <li>✓ Pós-exercício (sensibilidade maior)</li>
+                                    <li>✓ Durante episódio agudo (confirmação)</li>
+                                </ul>
+
+                                <p><strong>Achado:</strong></p>
+                                <ul>
+                                    <li>Padrão específico sugere CPT2 vs TFP vs VLCAD</li>
+                                    <li>Perfil congruente com variante genética = mais confiança no diagnóstico</li>
+                                </ul>
+                            </div>
+
+                            <h4 style="margin-top: 20px;">Testes Complementares</h4>
+                            <div class="diagnostic-box">
+                                <ul>
+                                    <li>Ácidos orgânicos urina: ácidos dicarboxílicos ↑</li>
+                                    <li>CK: normal entre eventos</li>
+                                    <li>Hipoglicemia e falta de corpos cetônicos durante episódio</li>
+                                </ul>
+                            </div>
+
+                            <h4 style="margin-top: 20px;">Genética</h4>
+                            <div class="diagnostic-box">
+                                <p>Sequenciamento CPT2 gene</p>
+                                <p class="small-text">Painéis também cobrem TFP e VLCAD (clinicamente idênticas)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Tratamento</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <table class="treatment-table">
+                                <tr class="header-row">
+                                    <th>Intervenção</th>
+                                    <th>Objetivo</th>
+                                </tr>
+                                <tr class="highlight-row">
+                                    <td><strong>Dieta hiperglicídica</strong><br>(gordura <30%)</td>
+                                    <td>Combustível alternativo</td>
+                                </tr>
+                                <tr class="highlight-row">
+                                    <td><strong>Carboidratos antes/durante exercício</strong></td>
+                                    <td>Energia disponível</td>
+                                </tr>
+                                <tr class="warning-row">
+                                    <td><strong>EVITAR jejum</strong></td>
+                                    <td>Evita trigger principal ⚠️</td>
+                                </tr>
+                                <tr class="warning-row">
+                                    <td><strong>EVITAR exercício durante doença/febre</strong></td>
+                                    <td>Estresse metabólico ⚠️</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>L-carnitina</strong><br>(se níveis baixos)</td>
+                                    <td>Suplementação se deficiência</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Triheptanoin</strong><br>(em casos severos)</td>
+                                    <td>Ácido graxo de cadeia ímpar = anaplerosis</td>
+                                </tr>
+                            </table>
+
+                            <div class="info-box success">
+                                <strong>✓ Tolerância:</strong> Resistência + exercício burst são bem tolerados
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mitocondrial -->
+            <section id="mitocondrial" class="section section-alt">
+                <h2>🟡 MIOPATIA MITOCONDRIAL (mtDNA/MELAS)</h2>
+                
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Fisiologia Básica</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p><strong>Problema:</strong> Cadeia de transporte de elétrons defeituosa → ATP insuficiente + oxidative stress</p>
+                            <div class="flow-diagram">
+                                <div class="flow-step">Exercício prolongado</div>
+                                <div class="flow-arrow">↓</div>
+                                <div class="flow-step">Músculos pedem MAIS ATP</div>
+                                <div class="flow-arrow">↓</div>
+                                <div class="flow-step error">Mitocôndrias danificadas não conseguem</div>
+                                <div class="flow-arrow">↓</div>
+                                <div class="flow-step error">VO₂máx reduzido, lactato elevado, fadiga exagerada</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Apresentação Clínica</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <table class="clinic-table">
+                                <tr>
+                                    <td><strong>Tipo de sintoma</strong></td>
+                                    <td>Fadiga/dispneia exertiva + mialgia</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Trigger</strong></td>
+                                    <td>Exercício prolongado/endurance, jejum, doença/febre</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>CK</strong></td>
+                                    <td>Normal a levemente elevado</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Achado CRÍTICO</strong></td>
+                                    <td class="error"><strong>Manifestações multissistêmicas (diferencia!)</strong></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Manifestações extras</strong></td>
+                                    <td>Surdez, ptose, atrofia óptica, AVC, diabetes, epilepsia, cardiomiopatia</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Exame neuro</strong></td>
+                                    <td>Pode ter achados permanentes (ptose, neuropatia)</td>
+                                </tr>
+                            </table>
+
+                            <div class="info-box warning">
+                                <strong>💡 Pista diagnóstica:</strong> "Pior atleta + surdo" ou "Pior atleta + diabetes jovem"
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Herança Genética</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="inheritance-box">
+                                <h4>mtDNA (DNA Mitocondrial)</h4>
+                                <ul>
+                                    <li>Herança <strong>MATERNA</strong></li>
+                                    <li>Heteroplasma: proporção variável de mtDNA mutante vs normal</li>
+                                    <li class="warning-text">🔴 <strong>CRÍTICO:</strong> Teste em sangue pode ser normal → biópsia muscular necessária</li>
+                                </ul>
+                            </div>
+
+                            <div class="inheritance-box" style="margin-top: 15px;">
+                                <h4>Genes Nucleares</h4>
+                                <ul>
+                                    <li>Vários padrões de herança (AR, AD, XL)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Diagnóstico</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <h4>Lactato Sérico</h4>
+                            <div class="diagnostic-box">
+                                <ul>
+                                    <li>Elevado em ~65% de mitocondriais</li>
+                                    <li>Coletar em gelo, analisar rápido (falsos positivos fáceis!)</li>
+                                    <li class="warning-text">⚠️ <strong>Normal NÃO exclui</strong> (35% têm lactato normal)</li>
+                                </ul>
+                            </div>
+
+                            <h4 style="margin-top: 20px;">Teste de Exercício Cardiopulmonar 🔑</h4>
+                            <div class="diagnostic-box">
+                                <p><strong>Achado característico:</strong></p>
+                                <ul>
+                                    <li>✓ <strong>VO₂máx reduzido</strong> (platô precoce)</li>
+                                    <li>✓ <strong>RER elevado</strong> (taxa troca respiratória >1.0 cedo)</li>
+                                    <li>✓ <strong>Frequência cardíaca desproporcional</strong> (muito alta para pouco esforço)</li>
+                                    <li>✓ <strong>Lactato elevado</strong> durante exercício</li>
+                                </ul>
+                            </div>
+
+                            <table class="comparison-table" style="margin-top: 15px;">
+                                <tr>
+                                    <th>Parâmetro</th>
+                                    <th>Normal</th>
+                                    <th>Mitocondrial</th>
+                                </tr>
+                                <tr>
+                                    <td><strong>VO₂máx</strong></td>
+                                    <td>~40-50 mL/kg/min</td>
+                                    <td class="error">&lt;20 mL/kg/min</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>RER</strong></td>
+                                    <td>Aumenta gradualmente</td>
+                                    <td class="error">Aumenta rápido (>1.0)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Lactato</strong></td>
+                                    <td>Sobe gradual</td>
+                                    <td class="error">Sobe rápido</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>FC</strong></td>
+                                    <td>Proporcional ao esforço</td>
+                                    <td class="error">DESPROPORCIONAL</td>
+                                </tr>
+                            </table>
+
+                            <h4 style="margin-top: 20px;">Genética</h4>
+                            <div class="diagnostic-box">
+                                <p><strong>mtDNA sequencing:</strong></p>
+                                <ul>
+                                    <li>Idealmente de <strong>MÚSCULO</strong> (não sangue)</li>
+                                    <li>NGS pode detectar heteroplasma até 5%</li>
+                                    <li class="warning-text">⚠️ Sangue pode ser falsamente normal</li>
+                                </ul>
+
+                                <p style="margin-top: 15px;"><strong>Genes nucleares:</strong></p>
+                                <ul>
+                                    <li>Painéis cobrem POLG, TK2, genes de complexos, etc.</li>
+                                </ul>
+                            </div>
+
+                            <h4 style="margin-top: 20px;">Biópsia Muscular (Frequentemente Necessária)</h4>
+                            <div class="diagnostic-box">
+                                <ul>
+                                    <li>✓ <strong>Fibras vermelhas irregulares</strong> (COX-negative = patognomônico)</li>
+                                    <li>✓ <strong>Paracrystalline inclusions</strong> (ultraestrutura)</li>
+                                    <li>✓ Permite análise enzimática mitocondrial</li>
+                                    <li class="highlight-text">🔴 ESSENCIAL se mtDNA sangue negativo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-button">
+                            <span>Tratamento</span>
+                            <span class="toggle">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <h4>"Mitochondrial Cocktail" (Abordagem Combinada) 🍹</h4>
+                            <div class="treatment-box">
+                                <p><strong>Regime Base (25 anos de experiência clínica):</strong></p>
+                                <table class="dosage-table">
+                                    <tr>
+                                        <td><strong>CoQ10</strong></td>
+                                        <td>200 mg, 2x/dia</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Ácido α-lipóico</strong></td>
+                                        <td>200 mg, 2x/dia</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Vitamina E</strong></td>
+                                        <td>400 UI 1x/dia OU 200 UI 2x/dia</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Creatina</strong></td>
+                                        <td>75-100 mg/kg/dia (máx 5g/dia)</td>
+                                    </tr>
+                                </table>
+
+                                <p style="margin-top: 15px;"><strong>Adicionar conforme necessário:</strong></p>
+                                <ul>
+                                    <li>Carnitina (se níveis baixos)</li>
+                                    <li>Riboflavina (complexo I defects)</li>
+                                    <li>Folato, B12, vitamina D (se deficiência)</li>
+                                </ul>
+
+                                <div class="info-box success" style="margin-top: 15px;">
+                                    <strong>📊 Racional:</strong> Múltiplas vias disfuncionais → múltiplos alvos
+                                </div>
+                            </div>
+
+                            <h4 style="margin-top: 20px;">Exercício</h4>
+                            <div class="exercise-box">
+                                <ul>
+                                    <li>✓ Treinamento endurance: melhora VO₂máx até 10-15%</li>
+                                    <li>✓ Treinamento resistência: melhora força, reduz heteroplasma</li>
+                                    <li>✓ Ambos: melhoram qualidade de vida significativamente</li>
+                                </ul>
+
+                                <p style="margin-top: 15px;"><strong>Evitar:</strong></p>
+                                <ul>
+                                    <li>❌ Jejum prolongado</li>
+                                    <li>❌ Exercício durante doença/febre</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Comparação -->
+            <section id="comparacao" class="section">
+                <h2>📊 QUADRO COMPARATIVO</h2>
+                
+                <h3>Apresentação Clínica</h3>
+                <div class="table-responsive">
+                    <table class="comparison-full">
+                        <tr>
+                            <th>Aspecto</th>
+                            <th class="red">🔴 McArdle</th>
+                            <th class="orange">🟠 CPT2</th>
+                            <th class="yellow">🟡 Mitocondrial</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Tipo dor</strong></td>
+                            <td>Câimbras (aguda)</td>
+                            <td>Mialgia (difusa)</td>
+                            <td>Fadiga/dispneia</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Timing</strong></td>
+                            <td>Segundos-minutos</td>
+                            <td>12-24h depois</td>
+                            <td>Horas/progressivo</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Trigger</strong></td>
+                            <td>Exercício breve intenso</td>
+                            <td>Exercício prolongado + jejum</td>
+                            <td>Endurance + stressor</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pigmentúria</strong></td>
+                            <td>Imediata</td>
+                            <td>Tardia</td>
+                            <td>Possível</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td><strong>CK basal</strong></td>
+                            <td class="red">↑ CRONICAMENTE</td>
+                            <td class="orange">Normal</td>
+                            <td class="yellow">Normal/leve ↑</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fenômeno 2º fôlego</strong></td>
+                            <td class="success">✓ SIM (patognomônico)</td>
+                            <td>✗ NÃO</td>
+                            <td>✗ NÃO</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Manifestações extras</strong></td>
+                            <td>Hipotireoidismo, gota</td>
+                            <td>Nenhuma típica</td>
+                            <td>Muitas (surdez, ptose, etc)</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3 style="margin-top: 30px;">Diagnóstico</h3>
+                <div class="table-responsive">
+                    <table class="comparison-full">
+                        <tr>
+                            <th>Teste</th>
+                            <th class="red">🔴 McArdle</th>
+                            <th class="orange">🟠 CPT2</th>
+                            <th class="yellow">🟡 Mitocondrial</th>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td><strong>Lactato esforço</strong></td>
+                            <td class="red">↓ (BLUNTED)</td>
+                            <td class="orange">Normal</td>
+                            <td class="yellow">↑</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td><strong>Amônia esforço</strong></td>
+                            <td class="red">↑↑↑</td>
+                            <td class="orange">Normal</td>
+                            <td class="yellow">Normal</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Acilcarnitina</strong></td>
+                            <td>Normal</td>
+                            <td class="orange">↑ (padrão específico)</td>
+                            <td>Normal</td>
+                        </tr>
+                        <tr>
+                            <td><strong>VO₂máx</strong></td>
+                            <td>Normal</td>
+                            <td>Normal</td>
+                            <td class="yellow">↓</td>
+                        </tr>
+                        <tr>
+                            <td><strong>RER esforço</strong></td>
+                            <td>Normal</td>
+                            <td>Normal</td>
+                            <td class="yellow">↑ precoce</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Lactato repouso</strong></td>
+                            <td>Normal</td>
+                            <td>Normal</td>
+                            <td class="yellow">↑ (~65%)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gene</strong></td>
+                            <td class="red">PYGM</td>
+                            <td class="orange">CPT2 (TFP/VLCAD)</td>
+                            <td class="yellow">mtDNA ou nuclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Biópsia</strong></td>
+                            <td>Miofosforilase ↓, glicogênio ↑</td>
+                            <td>Normal/lipídios</td>
+                            <td class="yellow">Fibras COX-, RRF</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3 style="margin-top: 30px;">Tratamento - Abordagem</h3>
+                <div class="table-responsive">
+                    <table class="comparison-full">
+                        <tr>
+                            <th>Intervenção</th>
+                            <th class="red">🔴 McArdle</th>
+                            <th class="orange">🟠 CPT2</th>
+                            <th class="yellow">🟡 Mitocondrial</th>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td><strong>Carboidratos pré-exercício</strong></td>
+                            <td class="success">✓ Essencial (sucrose)</td>
+                            <td class="success">✓ Necessário</td>
+                            <td class="success">✓ Sempre</td>
+                        </tr>
+                        <tr class="warning-row">
+                            <td><strong>Jejum</strong></td>
+                            <td>Tolera bem</td>
+                            <td class="error">❌ EVITAR (trigger)</td>
+                            <td class="error">❌ EVITAR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gordura na dieta</strong></td>
+                            <td>Aumentar</td>
+                            <td class="error">REDUZIR (<30%)</td>
+                            <td>Neutra</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Proteína</strong></td>
+                            <td>Aumentar (~15%)</td>
+                            <td>Neutra</td>
+                            <td>Neutra</td>
+                        </tr>
+                        <tr class="highlight-row">
+                            <td><strong>Creatina</strong></td>
+                            <td class="success">✓ Baixa dose</td>
+                            <td>✗</td>
+                            <td class="success">✓ Cocktail</td>
+                        </tr>
+                        <tr>
+                            <td><strong>CoQ10/α-lipóico</strong></td>
+                            <td>✗</td>
+                            <td>✗</td>
+                            <td class="success">✓ Essencial</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Diagnóstico Prático -->
+            <section id="diagnostico" class="section section-alt">
+                <h2>🔍 ABORDAGEM DIAGNÓSTICA PRÁTICA</h2>
+                
+                <div class="steps-container">
+                    <div class="step-box">
+                        <div class="step-number">1️⃣</div>
+                        <h3>História Clínica</h3>
+                        <p><strong>"Quando começou a ter problemas?"</strong></p>
+                        <div class="decision-tree">
+                            <div class="decision">→ Segundos após exercício BREVE?</div>
+                            <div class="answer red">= McArdle</div>
+                        </div>
+                        <div class="decision-tree">
+                            <div class="decision">→ 12-24h após exercício PROLONGADO?</div>
+                            <div class="answer orange">= CPT2</div>
+                        </div>
+                        <div class="decision-tree">
+                            <div class="decision">→ Progressivo com endurance + história multissistêmica?</div>
+                            <div class="answer yellow">= Mitocondrial</div>
+                        </div>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">2️⃣</div>
+                        <h3>Exame Físico</h3>
+                        <div class="decision-tree">
+                            <div class="decision">→ Achados neurológicos permanentes (surdez, ptose)?</div>
+                            <div class="answer yellow">= Mitocondrial</div>
+                        </div>
+                        <div class="decision-tree">
+                            <div class="decision">→ Exame normal?</div>
+                            <div class="answer">= McArdle ou CPT2</div>
+                        </div>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">3️⃣</div>
+                        <h3>Testes Iniciais</h3>
+                        <ul class="checklist">
+                            <li>✓ CK (basal + monitorar)</li>
+                            <li>✓ Acilcarnitina em jejum</li>
+                            <li>✓ Lactato em jejum</li>
+                            <li>✓ Vitamina D, TSH</li>
+                            <li>✓ Ácidos orgânicos urina</li>
+                        </ul>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">4️⃣</div>
+                        <h3>Teste Específico</h3>
+                        <ul>
+                            <li><strong>McArdle:</strong> Teste esforço antebraço (lactato blunted + amônia ↑)</li>
+                            <li><strong>CPT2:</strong> Acilcarnitina (padrão específico)</li>
+                            <li><strong>Mitocondrial:</strong> VO₂máx ↓ + RER ↑ + Lactato ↑</li>
+                        </ul>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">5️⃣</div>
+                        <h3>Confirmação Genética</h3>
+                        <p>NGS painel: PYGM + CPT2/TFP/VLCAD + genes nucleares mitocondriais</p>
+                        <p class="small-text">Se não resolutivo: mtDNA de MÚSCULO (não sangue)</p>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">6️⃣</div>
+                        <h3>Biópsia Muscular (se indefinido)</h3>
+                        <ul>
+                            <li>Painel negativo com alta suspeita</li>
+                            <li>Suspeitado mitocondrial (histologia é chave)</li>
+                            <li>Análise enzimática específica necessária</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Checklist Final -->
+            <section class="section">
+                <h2>✅ CHECKLIST RÁPIDO PARA DISCUSSÃO</h2>
+                
+                <div class="checklist-grid">
+                    <div class="checklist-card red">
+                        <h3>🔴 McArdle</h3>
+                        <ul class="checklist">
+                            <li>Câimbras com segundos</li>
+                            <li>CK cronicamente ↑</li>
+                            <li>Teste esforço: lactato blunted + amônia ↑</li>
+                            <li>Sucrose + exercício regular</li>
+                            <li>Fenômeno 2º fôlego ⭐</li>
+                        </ul>
+                    </div>
+
+                    <div class="checklist-card orange">
+                        <h3>🟠 CPT2</h3>
+                        <ul class="checklist">
+                            <li>Mialgia 12-24h após exercício</li>
+                            <li>CK normal entre eventos</li>
+                            <li>Acilcarnitina com padrão</li>
+                            <li>Dieta carbs + evitar jejum</li>
+                            <li>Trigger: exercício prolongado + jejum</li>
+                        </ul>
+                    </div>
+
+                    <div class="checklist-card yellow">
+                        <h3>🟡 Mitocondrial</h3>
+                        <ul class="checklist">
+                            <li>Fadiga + multissistêmico</li>
+                            <li>VO₂máx ↓ + RER ↑</li>
+                            <li>Lactato ↑ em repouso/esforço</li>
+                            <li>Cocktail mitocondrial + exercício</li>
+                            <li>Biópsia: RRF + COX negativo</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p><strong>Miopatias Metabólicas</strong> - Guia Clínico 2025</p>
+            <p>Desenvolvido para fins educacionais e de referência clínica</p>
+            <p><a href="https://github.com/seu-usuario/miopatias-metabolicas">📚 GitHub Repository</a></p>
+            <p class="small-text">Última atualização: Janeiro 2025</p>
+        </div>
+    </footer>
+
+    <!-- Script para Acordeons e Mobile Menu -->
+    <script src="js/script.js"></script>
+</body>
+</html>
